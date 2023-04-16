@@ -133,7 +133,6 @@
             state: permissive
             policy: targeted
           when: ansible_facts['distribution'] == 'Fedora'
-      notify: Reboot
 
   handlers:
     - name: Reboot
