@@ -5,3 +5,4 @@ resources:
   - ./namespace.yaml
   - ./hajimari/ks.yaml
   - ./node-dev/ks.yaml
+  - ./node-dev-frontend/ks.yaml
