@@ -20,7 +20,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: &host "${SECRET_DOMAIN}"
+    - host: &host "www.${SECRET_DOMAIN}"
   tls:
     - hosts:
         - *host
